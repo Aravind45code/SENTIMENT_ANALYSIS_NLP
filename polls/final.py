@@ -1,14 +1,15 @@
 import nltk, re, string
 from nltk.corpus import stopwords
 import numpy as np
-import pickle
+import fickling
+
 nltk.download('stopwords')
 
 with open('polls/freqs.pickle', 'rb') as handle:
-    freqs = pickle.load(handle)
+    freqs = fickling.load(handle)
 
 with open('polls/theta.pickle', 'rb') as handle:
-    theta = pickle.load(handle)
+    theta = fickling.load(handle)
 
 def process_tweet(tweet):
     stemmer = nltk.PorterStemmer()
