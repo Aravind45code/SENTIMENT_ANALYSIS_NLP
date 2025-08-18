@@ -19,9 +19,8 @@ It uses **Natural Language Processing (NLP)** techniques and a **Logistic Regres
 
 ## 📂 Project Structure  
 
-```
-
-SENTIMENT\_ANALYSIS\_NLP-main/
+```plaintext
+SENTIMENT_ANALYSIS_NLP-main/
 │── Procfile                  # For Heroku deployment
 │── README.md                 # Project documentation
 │── db.sqlite3                # Default Django DB (for sessions, etc.)
@@ -31,14 +30,14 @@ SENTIMENT\_ANALYSIS\_NLP-main/
 │── runtime.txt               # Python runtime version for Heroku
 │
 ├── mysite/                   # Django project settings
-│   ├── **init**.py
+│   ├── __init__.py
 │   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
 │   ├── wsgi.py
 │
 ├── polls/                    # Core sentiment analysis app
-│   ├── Sentiment\_classifier\_LG.py   # Logistic Regression classifier code
+│   ├── Sentiment_classifier_LG.py   # Logistic Regression classifier code
 │   ├── final.py                      # Helper script for training/testing
 │   ├── freqs.pickle                  # Saved word frequency dictionary
 │   ├── theta.pickle                  # Trained model parameters
@@ -48,10 +47,6 @@ SENTIMENT\_ANALYSIS\_NLP-main/
 │   ├── tests.py
 │   ├── urls.py
 │   ├── views.py
-
-````
-
----
 
 ## ⚙️ Installation & Setup  
 
