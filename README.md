@@ -1,5 +1,5 @@
 
-```markdown
+````markdown
 # 📝 Sentiment Analysis using NLP  
 
 This project is a **Django-based Sentiment Analysis Web Application** that predicts whether a given text expresses **Positive** or **Negative** sentiment.  
@@ -47,12 +47,14 @@ SENTIMENT_ANALYSIS_NLP-main/
 │   ├── tests.py
 │   ├── urls.py
 │   ├── views.py
+````
 
+---
 
+## ⚙️ Installation & Setup
 
-## ⚙️ Installation & Setup  
+### 1️⃣ Clone the repository
 
-### 1️⃣ Clone the repository  
 ```bash
 git clone https://github.com/your-username/SENTIMENT_ANALYSIS_NLP.git
 cd SENTIMENT_ANALYSIS_NLP-main
@@ -149,6 +151,18 @@ Visit 👉 [http://127.0.0.1:8000](http://127.0.0.1:8000)
    heroku open
    ```
 
+````
+
 ---
 
+### ✅ Fix Summary:
+- Added missing ` ``` ` after project structure.  
+- Removed stray blank line.  
+- Now GitHub will render:
+  - Tree as a **proper block**  
+  - Installation / Usage / APIs as **Markdown headings + code blocks**  
 
+---
+
+Would you like me to **regenerate the entire README in one final clean copy** (no explanations, just the ready-to-paste file)?
+````
