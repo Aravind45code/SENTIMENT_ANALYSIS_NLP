@@ -1,5 +1,5 @@
 
-````markdown
+
 # 📝 Sentiment Analysis using NLP  
 
 This project is a **Django-based Sentiment Analysis Web Application** that predicts whether a given text expresses **Positive** or **Negative** sentiment.  
