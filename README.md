@@ -47,7 +47,7 @@ SENTIMENT_ANALYSIS_NLP-main/
 │   ├── tests.py
 │   ├── urls.py
 │   ├── views.py
-````
+```
 
 ---
 
