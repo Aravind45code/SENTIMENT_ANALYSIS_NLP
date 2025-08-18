@@ -48,13 +48,15 @@ SENTIMENT_ANALYSIS_NLP-main/
 │   ├── urls.py
 │   ├── views.py
 
+
+
 ## ⚙️ Installation & Setup  
 
 ### 1️⃣ Clone the repository  
 ```bash
 git clone https://github.com/your-username/SENTIMENT_ANALYSIS_NLP.git
 cd SENTIMENT_ANALYSIS_NLP-main
-````
+```
 
 ### 2️⃣ Create virtual environment
 
